@@ -127,3 +127,49 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.5;
+}
+
+.container {
+  width: 1160px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background: #e24e42;
+  color: #fff;
+  padding: 16px;
+  margin-bottom: 200px;
+}
+header a {
+  color: #fff;
+  text-decoration: none;
+  margin: 16px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.logo {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+header nav {
+  display: inline-block;
+  text-align: right;
+  width: 60%;
+  text-transform: uppercase;
+}
+
+.logo-container {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30%;
+}
