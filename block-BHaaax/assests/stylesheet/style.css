@@ -202,3 +202,14 @@ header nav {
 .hero-img img {
   border-radius: 8px;
 }
+
+footer {
+  background: #e24e42;
+  padding: 32px;
+  color: #fff;
+  text-align: center;
+  margin-top: 200px;
+}
+footer p {
+  font-size: 18px;
+}
