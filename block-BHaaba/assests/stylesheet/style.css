@@ -127,3 +127,51 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 18px;
+  background: #5cdb95;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.logo {
+  font-size: 36px;
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: right;
+  width: 70%;
+  text-align: right;
+}
+
+nav a {
+  margin-right: 16px;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
