@@ -144,7 +144,8 @@ img {
   width: 100%;
 }
 /* header section */
-header {
+header,
+footer {
   padding: 18px;
   background: #5cdb95;
 }
@@ -187,6 +188,13 @@ nav a {
 }
 .col a {
   color: #5cdb95;
+}
+/* footer section */
+footer {
+  text-align: center;
+  padding: 24px;
+  margin-top: 240px;
+  color: #fff;
 }
 .clearfix::before,
 .clearfix::after {
