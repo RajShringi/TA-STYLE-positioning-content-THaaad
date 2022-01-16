@@ -132,6 +132,7 @@ table {
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
 }
 
 .container {
@@ -139,6 +140,10 @@ body {
   margin: 0 auto;
 }
 
+img {
+  width: 100%;
+}
+/* header section */
 header {
   padding: 18px;
   background: #5cdb95;
@@ -167,6 +172,22 @@ nav a {
   margin-right: 16px;
 }
 
+/* column section */
+.column-container {
+  margin-top: 120px;
+}
+.col {
+  width: 30.33%;
+  float: left;
+  margin: 1.5%;
+}
+.col p {
+  margin: 18px 0;
+  font-size: 16px;
+}
+.col a {
+  color: #5cdb95;
+}
 .clearfix::before,
 .clearfix::after {
   content: "";
