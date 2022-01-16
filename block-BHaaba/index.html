@@ -1,0 +1,82 @@
+<!-- ### Exercise 2
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+3. Inside the main content crate three columns. In each column take one image and a paragraph below the image.
+4. Using float is necessary. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Page 2 | positioning content</title>
+    <link rel="stylesheet" href="assests/stylesheet/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container clearfix">
+        <a href="#" class="logo">Logo</a>
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container column-container">
+        <section class="clearfix">
+          <article class="col">
+            <img
+              src="assests/media/clay-banks-33BrkP9x8Cw-unsplash.jpg"
+              alt="clay-banks"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+              placeat! Saepe, sed fugit. Numquam libero tempore, accusamus nisi,
+              facilis atque ea magni animi dicta quae sit minima inventore
+              explicabo enim!
+            </p>
+            <a href="#">Read More</a>
+          </article>
+
+          <article class="col">
+            <img
+              src="assests/media/james-kovin-QtBRQw0rFLE-unsplash.jpg"
+              alt="horse"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+              placeat! Saepe, sed fugit. Numquam libero tempore, accusamus nisi,
+              facilis atque ea magni animi dicta quae sit minima inventore
+              explicabo enim!
+            </p>
+            <a href="#">Read More</a>
+          </article>
+
+          <article class="col">
+            <img
+              src="assests/media/mathew-schwartz-7gl8ffzOwZU-unsplash.jpg"
+              alt="rabbit"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+              placeat! Saepe, sed fugit. Numquam libero tempore, accusamus nisi,
+              facilis atque ea magni animi dicta quae sit minima inventore
+              explicabo enim!
+            </p>
+            <a href="#">Read More</a>
+          </article>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <p>&copy; AltCampus</p>
+      </div>
+    </footer>
+  </body>
+</html>
