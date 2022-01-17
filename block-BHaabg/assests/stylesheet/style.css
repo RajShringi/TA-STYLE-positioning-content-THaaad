@@ -222,3 +222,10 @@ main {
   margin: 0 1.5%;
   float: left;
 }
+/* Footer */
+footer {
+  padding: 24px;
+  color: #fff;
+  text-align: center;
+  background: #a64ac9;
+}
