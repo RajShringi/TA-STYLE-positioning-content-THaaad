@@ -138,6 +138,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
+  color: #333;
+  font-weight: 300;
 }
 
 /* Container */
@@ -161,6 +163,7 @@ header {
   vertical-align: middle;
   color: #fff;
   width: 30%;
+  font-weight: 400;
 }
 nav {
   display: inline-block;
@@ -194,7 +197,7 @@ nav a {
 /* Services */
 .services {
   font-size: 0;
-  padding: 32px 0;
+  padding: 80px 0;
 }
 .col {
   float: left;
@@ -215,6 +218,7 @@ nav a {
   text-decoration: none;
   color: #fff;
   background: #1b9ce5;
+  display: inline-block;
   padding: 10px;
 }
 .clearfix::before,
@@ -224,4 +228,36 @@ nav a {
 }
 .clearfix::after {
   clear: both;
+}
+/* People */
+.people {
+  text-align: center;
+  background: #1b9ce5;
+  padding: 80px 0;
+  color: #fff;
+}
+.people-container {
+  margin-top: 50px;
+  font-size: 0;
+}
+.people h2 {
+  font-size: 40px;
+  font-weight: 300;
+}
+.person {
+  border: 1px solid #fff;
+  display: inline-block;
+  padding: 3%;
+  width: 22.5%;
+  font-size: 16px;
+}
+.person-mr {
+  margin-left: 3.3%;
+}
+.person h4 {
+  font-size: 18px;
+  font-weight: 300;
+}
+.person img {
+  border-radius: 50%;
 }
