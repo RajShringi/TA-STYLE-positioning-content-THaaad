@@ -190,3 +190,38 @@ nav a {
   font-size: 18px;
   padding-bottom: 120px;
 }
+
+/* Services */
+.services {
+  font-size: 0;
+  padding: 32px 0;
+}
+.col {
+  float: left;
+  font-size: 16px;
+  width: 30.33%;
+}
+.col-mid {
+  margin: 0 4.5%;
+}
+.col h3 {
+  color: #1b9ce5;
+  font-size: 24px;
+}
+.col p {
+  margin: 18px 0;
+}
+.more {
+  text-decoration: none;
+  color: #fff;
+  background: #1b9ce5;
+  padding: 10px;
+}
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
