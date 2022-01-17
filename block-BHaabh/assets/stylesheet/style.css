@@ -204,11 +204,11 @@ nav a {
 .hero-heading {
   font-size: 50px;
   font-weight: 300;
-  padding: 80px 0;
+  padding-top: 80px;
 }
 .hero-text {
   font-size: 18px;
-  padding-bottom: 120px;
+  padding-bottom: 200px;
 }
 
 /* Services */
@@ -295,4 +295,16 @@ hr {
   margin-top: 50px;
   color: lightsteelblue;
   border-style: dashed;
+}
+/* Footer */
+footer {
+  padding: 24px;
+}
+.footer-text,
+.footer-nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-nav a {
+  color: #1b9ce5;
 }
