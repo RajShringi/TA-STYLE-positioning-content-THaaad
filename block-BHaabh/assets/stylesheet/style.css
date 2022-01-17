@@ -142,6 +142,23 @@ body {
   font-weight: 300;
 }
 
+img {
+  width: 100%;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+h3 {
+  color: #1b9ce5;
+  font-size: 24px;
+}
+p {
+  margin: 18px 0;
+}
+
 /* Container */
 .container {
   max-width: 1160px;
@@ -207,13 +224,7 @@ nav a {
 .col-mid {
   margin: 0 4.5%;
 }
-.col h3 {
-  color: #1b9ce5;
-  font-size: 24px;
-}
-.col p {
-  margin: 18px 0;
-}
+
 .more {
   text-decoration: none;
   color: #fff;
@@ -240,10 +251,7 @@ nav a {
   margin-top: 50px;
   font-size: 0;
 }
-.people h2 {
-  font-size: 40px;
-  font-weight: 300;
-}
+
 .person {
   border: 1px solid #fff;
   display: inline-block;
@@ -260,4 +268,31 @@ nav a {
 }
 .person img {
   border-radius: 50%;
+}
+/* Destination */
+.destination {
+  padding: 80px 0;
+  text-align: center;
+}
+.destination h2 {
+  color: #1b9ce5;
+}
+.destination-hero-article {
+  margin-bottom: 50px;
+}
+.destination-container article {
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+.left {
+  padding-right: 16px;
+}
+.right {
+  padding-left: 16px;
+}
+hr {
+  margin-top: 50px;
+  color: lightsteelblue;
+  border-style: dashed;
 }
