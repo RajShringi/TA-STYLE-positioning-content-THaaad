@@ -1,0 +1,110 @@
+<!-- ### Exercise
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the logo to the left and all the navigation to the right.
+
+3. The header must be fixed at the top of the page.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery Layout | positioning content</title>
+    <link rel="stylesheet" href="assests/stylesheet/style.css" />
+  </head>
+  <body id="top">
+    <a href="#top" class="top">^</a>
+    <header>
+      <div class="container">
+        <a href="#" class="logo">Gallery</a>
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="article-section">
+          <article class="article">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem ea
+              sed in vel quia minima necessitatibus provident, non placeat
+              labore accusantium nihil! Distinctio qui quae ratione quas, animi
+              soluta obcaecati? Ipsam harum libero, odio sapiente fugit expedita
+              quis consectetur. Laboriosam corrupti nulla saepe ullam
+              consequuntur veniam cupiditate exercitationem a labore nesciunt
+              nostrum aliquam ipsum, officia maiores quas recusandae commodi
+              laudantium. Enim sunt exercitationem voluptatum cumque rem iure
+              odio nihil animi placeat quam. Voluptatem explicabo esse, expedita
+              omnis architecto ipsa corrupti corporis deserunt adipisci, velit
+              doloremque reprehenderit? Tempore, voluptates itaque! Quam?
+            </p>
+          </article>
+          <img
+            src="assests/media/anima-visual-PS_-DwoNUJ4-unsplash.jpg"
+            alt="shop window"
+            class="article-img"
+          />
+        </section>
+
+        <section class="gallery">
+          <article class="clearfix">
+            <img
+              src="assests/media/anima-visual-PS_-DwoNUJ4-unsplash.jpg"
+              alt="shop window"
+              class="gallery-img"
+            />
+            <img
+              src="assests/media/clay-banks-33BrkP9x8Cw-unsplash.jpg"
+              alt="clay banks"
+              class="gallery-img"
+            />
+            <img
+              src="assests/media/james-kovin-QtBRQw0rFLE-unsplash.jpg"
+              alt="horse"
+              class="gallery-img"
+            />
+          </article>
+        </section>
+
+        <section class="gallery">
+          <article class="clearfix">
+            <img
+              src="assests/media/mathew-schwartz-7gl8ffzOwZU-unsplash.jpg"
+              alt="rabbit"
+              class="gallery-img"
+            />
+            <img
+              src="assests/media/susan-wilkinson-YOpB7OifsZQ-unsplash.jpg"
+              alt="water"
+              class="gallery-img"
+            />
+            <img
+              src="assests/media/tom-hills-BxQ2RosF3A8-unsplash.jpg"
+              alt="dog"
+              class="gallery-img"
+            />
+          </article>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <p>&copy; AltCampus</p>
+      </div>
+    </footer>
+  </body>
+</html>
